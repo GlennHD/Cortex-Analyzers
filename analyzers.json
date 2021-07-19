@@ -1,4 +1,4 @@
-// 20210719000610
+// 20210719002734
 // https://download.thehive-project.org/analyzers.json
 
 [
@@ -2909,14 +2909,6 @@
         "type": "string",
         "multi": true,
         "required": true
-      },
-      {
-        "name": "warninglist_match",
-        "description": "Also query the MISP warninglist for matches",
-        "type": "boolean",
-        "multi": false,
-        "required": true,
-        "defaultValue": true,
       },
       {
         "name": "cert_check",
